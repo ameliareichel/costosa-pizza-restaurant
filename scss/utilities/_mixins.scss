@@ -1,0 +1,6 @@
+@mixin animation-slideIn {
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-repeat: no-repeat;
+    animation-fill-mode: forwards;
+}

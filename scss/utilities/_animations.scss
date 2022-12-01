@@ -1,0 +1,19 @@
+@keyframes slideIn {
+    0% {
+        right: -85px;
+    }
+
+    100% {
+        right: 5px;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        right: 5px;
+    }
+
+    100% {
+        right: -85px;
+    }
+}

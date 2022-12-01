@@ -1,0 +1,121 @@
+.page-wrapper {
+
+    .header {
+
+        .header-card {
+
+            #home {
+                padding: 0 30px;
+
+                .home-slogan {
+                    font-size: 30px;
+                    letter-spacing: 1px;
+                    margin: 21px 0;
+
+                    .green {
+                        color: rgb(103, 181, 39);
+                    }
+
+                    .gradient {
+                        background: -webkit-linear-gradient(45deg, rgb(103, 181, 39), rgb(255, 255, 255), rgb(255, 0, 0));
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    .red {
+                        color: rgb(255, 0, 0);
+                    }
+                }
+
+                p {
+                    font-family: $main-font;
+                    font-size: 14px;
+                    color: $paragraph-font-color;
+                    margin: 20px 0;
+                }
+
+                .about-link {
+
+                    a {
+                        color: $main-font-color;
+                        font-size: 12px;
+                    }
+                }
+
+                .menu-link {
+                    display: block;
+
+                    a {
+                        color: $main-font-color;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $extra-small-size) {
+    .page-wrapper {
+
+        .header {
+
+            .header-card {
+
+                #home {
+                    padding: 0 50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $small-size) {
+    .page-wrapper {
+
+        .header {
+
+            .header-card {
+
+                #home {
+                    padding: 0 60px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 860px) {
+    .page-wrapper {
+
+        .header {
+
+            .header-card {
+
+                #home {
+                    width: 400px;
+                    padding: 20px 70px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $extra-large-size) {
+    .page-wrapper {
+
+        .header {
+
+            .header-card {
+
+                #home {
+                    width: 550px;
+
+                    button {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+}
